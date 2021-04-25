@@ -1,0 +1,11 @@
+Spring:
+  jackson:
+    date-format: java.text.SimpleDateFormat
+    time-zone: GMT+8
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/demo?useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: nie200188888888
+server:
+  port: 8000
